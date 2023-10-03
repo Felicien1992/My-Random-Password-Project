@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generator a <br><span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="Password" placeholder="Password">
+            <ion-icon name="copy-outline" class="ion" onclick="copyPassword()"></ion-icon>
+        </div>
+        <button onclick="createPassword()"><ion-icon name="flash"></ion-icon>Generator Password</button>
+    </div>
+    <script src="style/style.js"></script>
+</body>
+
+</html>
