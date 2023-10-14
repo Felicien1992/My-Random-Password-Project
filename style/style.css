@@ -35,15 +35,15 @@ body {
 }
 
 .container h1 span {
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
+    color: #e27006;
+    border-bottom: 4px solid #e27006;
     padding-bottom: 7px;
 }
 
 .ion {
     font-size: 40px;
     cursor: pointer;
-    color: #019f55;
+    color: #e27006;
 }
 
 .display input {
@@ -61,7 +61,7 @@ body {
 .container button {
     border: 0;
     outline: 0;
-    background: #019f55;
+    background: #e27006;
     color: #fff;
     font-size: 22px;
     font-weight: 300;
